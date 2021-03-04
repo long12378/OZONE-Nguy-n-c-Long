@@ -1,0 +1,2 @@
+khi responsive cho ipad thì chiều rộng của ipad là 768px
+còn responsive của bootstrap col-md là 767 nên bài em sẽ bị lỗi chỗ 768px

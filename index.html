@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="slick/slick.css" rel="stylesheet" type="text/css" />
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="logocontent">
+                <img src="images/header/logo-1 1.png">
+                <p>Materials Importer & Contruction</p>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="item">
+                <img src="images/header/hotline.png">
+                <div class="iteminfo">
+                    <h1>HOTLINE</h1>
+                    <a href="#" class="linkmenu">028 6652 3966</a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/header/email.png">
+                <div class="iteminfo">
+                    <h1>EMAIL</h1>
+                    <a href="#" class="linkmenu">info@ozonejsc.vn</a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/header/giolamviec.png">
+                <div class="iteminfo">
+                    <h1>GIỜ LÀM VIỆC</h1>
+                    <a href="#" class="linkmenu">Mon. -Fri. 08AM - 18AM</a>
+                </div>
+            </div>
+        </div>
+        <div id="slidepanel" class="slidemenu" style="width: 0px; z-index:999;">
+            <a href="">TRANG CHỦ</a>
+								<a href="" class="menuitemside">DỊCH VỤ</a>
+								<a href="" class="menuitemside">ALBUM ẢNH</a>
+								<a href="" class="menuitemside">CHỨNG NHẬN</a>
+								<a href="" class="menuitemside">LIÊN HỆ</a>
+								<a href="#" class="closebtn" onclick="closeNav()">×</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;" xml:space="preserve">
+<g>
+	<path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z"/>
+	<path d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z"/>
+	<path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+        </button>
+    </header>
+    <nav>
+        <div class="menunav">
+            <ul class="menu">
+                <li><a href="#">TRANG CHỦ</a></li>
+                <li><a href="#">DỊCH VỤ</a></li>
+                <li><a href="#">ALBUM ẢNH</a></li>
+                <li><a href="#">CHỨNG NHẬN</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+        </div>
+        <div class="navcontent ">
+            <h1 class="navtitle wow slideInLeft">THAY ĐỔI THÓI QUEN SỬ DỤNG VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</h1>
+            <p class="wow slideInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.</p>
+            <form class="formmore wow bounceInUp">
+                <input type="submit" value="Xem thêm">
+                <button>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="#303030" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 5L19 12L12 19" stroke="#303030" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="scroll">
+
+            <form class="scrollform">
+                <img src="images/header/scrollbt.png" alt="">
+                <button class="scrollbutton">
+                    <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 1L8 8L1 0.999999" stroke="#EE1F23" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                </button>
+            </form>
+        </div>
+    </nav>
+    <main>
+        <div class="aboutus row">
+            <div class="sub col-md-6 wow slideInLeft">
+                <img src="images/aboutus/aboutusimg.jpg" alt="">
+                <div class="subsub">
+
+                    <div class=nenxanh>
+                        <div class="nhaytrang">
+                            <svg width="33" height="65" viewBox="0 0 33 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 32.5719V64.7765H32.2045V32.5719H10.7349C10.7349 20.7338 20.3664 11.1023 32.2045 11.1023V0.367371C14.4459 0.367371 0 14.8133 0 32.5719Z"
+                                    fill="#F8F8F8" />
+                            </svg>
+                            <svg width="33" height="65" viewBox="0 0 33 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 32.5719V64.7765H32.2045V32.5719H10.7349C10.7349 20.7338 20.3664 11.1023 32.2045 11.1023V0.367371C14.4459 0.367371 0 14.8133 0 32.5719Z"
+                                    fill="#F8F8F8" />
+                            </svg>
+                        </div>
+                        <h1>VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="aucontent col-md-6 wow slideInRight">
+                <a href="#" class="tag">OZONE COMPANY</a>
+                <h1 class="autitle">Về chúng tôi</h1>
+                <p class="content">
+                    Thị trường xây dựng tại Việt Nam đang có những bước
+                    chuyển mình vô cùng mạnh mẽ trong xây dựng cơ bản, đi
+                    kèm với nó là thị trường. Vật Liệu xây dựng phát triển đa
+                    dạng với nhiều phân khúc và chất lượng khác nhau. Với
+                    mục tiêu giúp khách hàng tiếp cận được các sản phẩm
+                    vật liệu đạt tiêu chuẩn Kỹ thuật – Mỹ thuật, giá thành
+                    hợp lý cùng các dịch vụ chuyên nghiệp, Công Ty Ozone đã
+                    được thành lập để là cầu nối giữa nhà sản xuất và khách
+                    hàng. Các loại vật liệu hiện nay cần đạt các tiêu chí cao về kiến
+                    trúc nhưng không được thay đổi vật liệu gốc.
+                    Vật liệu đưa vào sử dụng cần có độ bền cao về chất liệu
+                    và mầu sắc.</p>
+
+                <p class="content">
+                    Đi cùng sự phát triển của xã hội các vật liệu xây dựng
+                    mới dần được đưa vào sử dụng, chúng cần thỏa mãn các
+                    tiêu chí về...
+                </p>
+                <form class="formmore">
+                    <input type="submit" value="Xem thêm">
+                    <button>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19" stroke="#303030" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12 5L19 12L12 19" stroke="#303030" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="function wow fadeInUp">
+            <div class="funcontent">
+                <div class="hang1 row">
+                    <div class="funitem col-md-6 wow bounceInLeft">
+                        <a href="" style="text-decoration: none;">
+                            <svg width="50" height="50" viewBox="0 0 63 74" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="pathicon"
+                                    d="M59.032 22.6774H56.6474C54.6753 22.6774 53.0704 24.2839 53.0704 26.2581V26.4622C51.6826 26.9551 50.6858 28.2823 50.6858 29.8387V31.2364C50.6858 32.1924 51.0578 33.0923 51.7339 33.7691L53.0108 35.0474L51.7255 45.9838C48.2392 40.3503 42.6115 36.2779 36.1016 34.7824L35.5686 33.1806C37.3082 32.6996 38.7354 31.4691 39.4495 29.8387H39.9551C42.5853 29.8387 44.7243 27.6975 44.7243 25.0645V19.0968C46.0394 19.0968 47.1089 18.0262 47.1089 16.7097V14.3226C47.1089 13.0061 46.0394 11.9355 44.7243 11.9355H44.5168C43.377 5.06065 37.5025 0 30.4166 0C23.3308 0 17.4563 5.06065 16.3164 11.9355H16.109C14.7939 11.9355 13.7244 13.0061 13.7244 14.3226V16.7097C13.7244 18.0262 14.7939 19.0968 16.109 19.0968V25.0645C16.109 27.6975 18.248 29.8387 20.8782 29.8387H21.3837C22.0991 31.4691 23.5263 32.7008 25.2647 33.1806L24.7305 34.7836C22.0347 35.4018 19.4653 36.5453 17.194 38.1136L14.8451 30.8126C14.838 30.7733 14.8392 30.7339 14.8308 30.6945C14.2323 28.1797 10.678 26.8644 6.71956 27.7046C4.26222 28.2262 2.20907 29.4663 1.22661 31.0191C0.665033 31.9071 0.481418 32.8524 0.696033 33.7547C0.81884 34.2727 1.0728 34.737 1.42453 35.144L9.59421 47.3934C8.39594 50.1505 7.76283 53.0687 7.76283 56.0968C7.76283 61.1861 10.6768 65.5986 14.9167 67.7768V69.2258C14.9167 71.8588 17.0557 74 19.6859 74H23.2628H26.8397H45.9166V58.3729C47.6526 60.6752 50.3496 62.0645 53.3101 62.0645C58.437 62.0645 62.6089 57.8883 62.6089 52.7572V26.2581C62.6089 24.2839 61.004 22.6774 59.032 22.6774ZM53.0704 29.8387C53.0704 29.1811 53.6046 28.6452 54.2628 28.6452H55.4551V26.2581C55.4551 25.6004 55.9892 25.0645 56.6474 25.0645H59.032C59.6901 25.0645 60.2243 25.6004 60.2243 26.2581V33.4194H54.7564L53.4198 32.0814C53.1944 31.8558 53.0704 31.555 53.0704 31.2364V29.8387ZM33.9936 69.2258V71.6129H30.946C31.3562 70.9075 31.6089 70.0995 31.6089 69.2258H33.9936ZM35.1859 66.8387H28.032V61.3651L29.3686 60.0271C29.5916 59.8051 29.898 59.6774 30.2116 59.6774H31.6089C32.2671 59.6774 32.8012 60.2133 32.8012 60.871V62.0645H35.1859C35.844 62.0645 36.3782 62.6004 36.3782 63.2581V65.6452C36.3782 66.3028 35.844 66.8387 35.1859 66.8387ZM33.1339 33.4194L33.8493 35.5677L30.4166 39.8633L26.9828 35.5666L27.6982 33.4182H33.1339V33.4194ZM26.9947 39.4026C26.9423 39.4014 26.8922 39.3871 26.8397 39.3871H19.6859C19.674 39.3871 19.6632 39.3907 19.6513 39.3907C21.3706 38.3666 23.2401 37.6016 25.192 37.1468L26.9947 39.4026ZM19.6859 41.7742H22.7108C22.303 42.4772 22.0705 43.2924 22.0705 44.1613V45.3548H24.4551V44.1613C24.4551 42.8448 25.5246 41.7742 26.8397 41.7742C28.1548 41.7742 29.2243 42.8448 29.2243 44.1613C29.2243 45.4778 28.1548 46.5484 26.8397 46.5484H19.6859C18.3708 46.5484 17.3013 45.4778 17.3013 44.1613C17.3013 42.8448 18.3708 41.7742 19.6859 41.7742ZM17.3013 48.2719C18.0059 48.6825 18.8131 48.9355 19.6859 48.9355H26.8397C27.7125 48.9355 28.5197 48.6825 29.2243 48.2719V57.4455C28.6496 57.6114 28.1167 57.9038 27.6827 58.3395L26.3461 59.6774H22.0705C20.4013 59.6774 18.769 59.2788 17.3013 58.5495V48.2719ZM33.9936 58.2153C33.3592 57.6448 32.527 57.2903 31.6089 57.2903V44.1613C31.6089 43.5979 31.4933 43.0644 31.3133 42.5619L33.9936 39.2093V58.2153ZM39.9551 27.4516V22.6774C41.2702 22.6774 42.3397 23.748 42.3397 25.0645C42.3397 26.381 41.2702 27.4516 39.9551 27.4516ZM42.3397 20.9539C41.635 20.5434 40.8279 20.2903 39.9551 20.2903V19.0968H42.3397V20.9539ZM42.0965 11.9355H33.9936V2.93374C38.0891 4.20368 41.2309 7.60529 42.0965 11.9355ZM31.6089 2.44677V11.9355H29.2243V2.44677C29.6166 2.40858 30.0136 2.3871 30.4166 2.3871C30.8196 2.3871 31.2167 2.40858 31.6089 2.44677ZM26.8397 2.93374V11.9355H18.7368C19.6024 7.60529 22.7441 4.20368 26.8397 2.93374ZM16.1078 14.3226H44.7243V16.7097H16.109L16.1078 14.3226ZM20.8782 19.0968V20.2903C20.0054 20.2903 19.1982 20.5434 18.4936 20.9539V19.0968H20.8782ZM18.4936 25.0645C18.4936 23.748 19.5631 22.6774 20.8782 22.6774V27.4516C19.5631 27.4516 18.4936 26.381 18.4936 25.0645ZM23.2628 27.4516V19.0968H37.5705V27.4516C37.5705 29.4257 35.9656 31.0323 33.9936 31.0323H26.8397C24.8676 31.0323 23.2628 29.4257 23.2628 27.4516ZM3.24041 32.2974C3.86757 31.3068 5.4271 30.4212 7.21556 30.0404C7.89637 29.896 8.53306 29.8327 9.11252 29.8327C10.7996 29.8327 12.0015 30.3675 12.3926 30.9785L12.5094 31.3414C12.538 31.5861 12.4748 31.8558 12.2852 32.1554C11.6581 33.146 10.0986 34.0316 8.3101 34.4124C5.84918 34.934 3.99037 34.3909 3.30003 33.6616L3.06634 33.3107C3.05203 33.2749 3.02341 33.2415 3.01388 33.2057C2.95188 32.9384 3.02818 32.634 3.24041 32.2974ZM6.45725 36.9988C7.20841 36.9988 7.99891 36.9176 8.8061 36.7458C10.7221 36.3388 12.3854 35.4925 13.4942 34.404L15.7632 41.4567C15.2314 42.2266 14.9167 43.1563 14.9167 44.1613V51.0767L5.49268 36.9475C5.80625 36.9785 6.12699 36.9988 6.45725 36.9988ZM10.1474 56.0968C10.1474 53.9257 10.4992 51.8131 11.1919 49.7925L14.9167 55.3771V56.9179C14.3968 56.4525 13.9104 55.9464 13.4859 55.3806L11.5782 56.8129C14.0415 60.1011 17.9642 62.0645 22.0705 62.0645H25.6474V66.8387H20.8782C14.9608 66.8387 10.1474 62.0192 10.1474 56.0968ZM23.2628 71.6129H19.6859C18.3708 71.6129 17.3013 70.5423 17.3013 69.2258V68.7174C18.4399 69.0408 19.637 69.2258 20.8782 69.2258H29.2243C29.2243 70.5423 28.1548 71.6129 26.8397 71.6129H23.2628ZM53.3101 59.6774C50.6751 59.6774 48.306 58.2117 47.1268 55.8521L45.9166 53.428V48.9355H43.532V71.6129H36.3782V69.0062C37.7624 68.5121 38.7628 67.1992 38.7628 65.6452V63.2581C38.7628 61.7041 37.7624 60.3912 36.3782 59.897V37.3151C42.844 39.0577 48.2655 43.6266 51.0555 49.7698L51.2355 50.1648L50.6954 54.7648L53.0633 55.0429L55.3227 35.8065H60.2243V52.7572C60.2243 56.573 57.1219 59.6774 53.3101 59.6774Z"
+                                    fill="#EE1F23" />
+                            </svg>
+                            <h1 class="funtitle">1. TƯ VẤN KHÁCH HÀNG</h1>
+                            <p>• Nhận thông tin từ khách hàng.</p>
+                            <p>• Tư vấn vật liệu, tư vấn nguồn cung cấp.</p>
+                            <svg class="so" style="right: 10%;" width="48" height="105" viewBox="0 0 58 115" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sopath" opacity="0.6"
+                                    d="M57.0938 115H32.9531V48.9062L33.1875 38.0469L33.5781 26.1719C29.5677 30.1823 26.7812 32.8125 25.2188 34.0625L12.0938 44.6094L0.453125 30.0781L37.25 0.78125H57.0938V115Z"
+                                    fill="#E0E0E0" />
+                            </svg>
+
+                        </a>
+                    </div>
+                    <div class="funitem col-md-6 wow bounceInRight"data-wow-delay="0.2s">
+                        <a href="" style="text-decoration: none;">
+                            <svg width="40" height="50" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="pathicon"
+                                    d="M80 40C80 39.4176 79.6758 38.8835 79.1588 38.6146L64.0864 30.776L79.1588 22.9373C79.6758 22.6684 80 22.1343 80 21.5519C80 20.9696 79.6758 20.4355 79.1588 20.1665L66.1766 13.4149C65.4105 13.0168 64.4675 13.3143 64.0692 14.0794C63.6709 14.8445 63.9684 15.7876 64.7341 16.1857L75.0523 21.5518L40 39.7813L4.94766 21.5518L40 3.32222L52.2605 9.69843C53.0266 10.0965 53.9695 9.79885 54.3678 9.03392C54.7661 8.26883 54.4684 7.3257 53.703 6.92762L40.7212 0.17628C40.2689 -0.0587599 39.7309 -0.0587599 39.2788 0.17628L0.84125 20.1664C0.324219 20.4351 0 20.9693 0 21.5518C0 22.1343 0.324219 22.6683 0.84125 22.9372L15.9136 30.7758L0.84125 38.6146C0.324219 38.8835 0 39.4176 0 40C0 40.5823 0.324219 41.1165 0.84125 41.3854L15.9136 49.224L0.84125 57.0628C0.324219 57.3317 0 57.8658 0 58.4482C0 59.0305 0.324219 59.5647 0.84125 59.8336L39.2788 79.8237C39.5048 79.9411 39.7523 80 40 80C40.2477 80 40.4952 79.9413 40.7212 79.8237L79.1588 59.8336C79.6758 59.5647 80 59.0305 80 58.4482C80 57.8658 79.6758 57.3317 79.1588 57.0628L64.0864 49.224L79.1588 41.3854C79.6758 41.1165 80 40.5823 80 40ZM40.7212 42.9273L60.7011 32.5363L65.3595 34.959L30.363 53.2176L24.1283 49.9752L38.4794 42.5117L39.2786 42.9273C39.5047 43.0447 39.7522 43.1036 39.9998 43.1036C40.2475 43.1036 40.4952 43.0447 40.7212 42.9273ZM35.0942 40.751L20.743 48.2145L14.538 44.9875L28.8892 37.524L35.0942 40.751ZM19.2989 32.5363L25.5039 35.7635L11.1527 43.227L4.9475 39.9998L19.2989 32.5363ZM75.0523 58.4482L40 76.6777L4.94766 58.4482L19.2989 50.9847L39.2788 61.3756C39.5048 61.4931 39.7523 61.5519 40 61.5519C40.2477 61.5519 40.4952 61.4932 40.7212 61.3756L60.7011 50.9847L75.0523 58.4482ZM40 58.2295L33.7448 54.9765L68.7416 36.718L75.0523 40L40 58.2295Z"
+                                    fill="#EE1F23" />
+                            </svg>
+
+                            <h1 class="funtitle">2. TÌM KIẾM VẬT LIỆU</h1>
+                            <p>• Tìm kiếm nhà cung cấp có sản phẩm phù hợp.</p>
+                            <p>• Kiểm tra sản phẩm theo các tiêu chí của khách hàng.</p>
+                            <svg class="so" width="70" height="114" viewBox="0 0 81 116" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sopath" opacity="0.6"
+                                    d="M80.25 116H0.40625V99.2031L29.0781 70.2188C37.5677 61.5208 43.1146 55.5052 45.7188 52.1719C48.3229 48.7865 50.1979 45.6615 51.3438 42.7969C52.4896 39.9323 53.0625 36.9635 53.0625 33.8906C53.0625 29.3073 51.7865 25.8958 49.2344 23.6562C46.7344 21.4167 43.375 20.2969 39.1562 20.2969C34.7292 20.2969 30.4323 21.3125 26.2656 23.3438C22.099 25.375 17.75 28.2656 13.2188 32.0156L0.09375 16.4688C5.71875 11.6771 10.3802 8.29167 14.0781 6.3125C17.776 4.33333 21.8125 2.82292 26.1875 1.78125C30.5625 0.6875 35.4583 0.140625 40.875 0.140625C48.0104 0.140625 54.3125 1.44271 59.7812 4.04688C65.25 6.65104 69.4948 10.2969 72.5156 14.9844C75.5365 19.6719 77.0469 25.0365 77.0469 31.0781C77.0469 36.3385 76.1094 41.2865 74.2344 45.9219C72.4115 50.5052 69.5469 55.2188 65.6406 60.0625C61.7865 64.9062 54.9635 71.8073 45.1719 80.7656L30.4844 94.5938V95.6875H80.25V116Z"
+                                    fill="#E0E0E0" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="hang2 row">
+                    <div class="funitem col-md-6 wow bounceInLeft" data-wow-delay="0.4s">
+                        <a href="" style="text-decoration: none;">
+                            <svg width="50" height="50" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="pathicon"
+                                    d="M75.8979 48.6397C75.4318 48.4545 74.8997 48.5703 74.5534 48.9329L69.3334 54.4198V21.829H69.3395L74.3201 16.4512C74.7783 15.956 74.7481 15.1822 74.2524 14.724C74.2524 14.724 74.2518 14.7235 74.2513 14.7229L72.4587 13.0545L74.9495 10.3656C75.4072 9.86989 75.3764 9.09668 74.8807 8.63902L69.5029 3.65845C69.0077 3.20023 68.2345 3.22988 67.7763 3.72559L59.0863 13.1088H16.7778C16.7739 9.73506 14.0402 7.00139 10.6665 6.99748H9.44455C6.07083 7.00139 3.33717 9.73506 3.33325 13.1088V65.6644C3.33325 66.3391 3.88043 66.8863 4.55574 66.8863H23.0575L20.4905 69.9685C20.0592 70.4877 20.1297 71.2581 20.6483 71.6895L26.284 76.3819C26.8027 76.8139 27.5737 76.7434 28.0056 76.2247L28.0062 76.2242L34.2618 68.7085C34.6937 68.1882 34.9718 67.5566 35.0635 66.8863H57.4593L50.1138 74.6C49.6489 75.089 49.6684 75.8627 50.1574 76.3277C50.3846 76.5436 50.6862 76.6645 51 76.6639H75.4441C76.1194 76.6639 76.6666 76.1167 76.6666 75.442V49.7754C76.6666 49.2753 76.3622 48.8254 75.8979 48.6397ZM71.6961 15.6752L69.3334 18.2309V16.4333L70.7998 14.8443L71.6961 15.6752ZM66.889 15.4575V15.4749L56.5524 26.6462L52.9627 23.325L65.4147 9.86822L69.0044 13.1893L66.9035 15.4575H66.889ZM54.2048 27.8021L51.3934 28.6223L51.9937 25.7549L54.2048 27.8021ZM68.7358 6.28021L72.3238 9.59966L70.6633 11.3973L67.0747 8.07449L68.7358 6.28021ZM9.44455 9.44189H10.6665C12.6918 9.44189 14.3334 11.0834 14.3334 13.1088V59.585C13.2815 58.7759 11.993 58.3351 10.6665 58.3306H9.44455C8.11744 58.3351 6.8295 58.7759 5.77766 59.585V13.1088C5.77766 11.0834 7.4192 9.44189 9.44455 9.44189ZM9.44455 60.775H10.6665C12.6918 60.775 14.3334 62.4171 14.3334 64.4419H5.77766C5.77766 62.4171 7.4192 60.775 9.44455 60.775ZM32.3842 67.1453L31.602 68.0842L27.845 64.9566L28.6261 64.0167C29.058 63.498 29.8284 63.4275 30.3471 63.8595C30.3476 63.8595 30.3476 63.86 30.3482 63.86L32.2264 65.4199C32.7456 65.8512 32.8166 66.6217 32.3853 67.1409C32.3847 67.1414 32.3847 67.1414 32.3842 67.142V67.1453ZM26.9101 73.721L23.1526 70.5935L26.2807 66.8348L30.0377 69.9629L26.9101 73.721ZM34.5499 64.4419C34.3468 64.1034 34.09 63.8007 33.7896 63.545L31.9114 61.9818C30.3549 60.686 28.0431 60.897 26.7473 62.4535L25.089 64.4419H16.7778V15.5532H56.8249L50.3387 22.5625C50.2458 22.6671 50.172 22.7879 50.1211 22.9183C50.1065 22.9535 50.0953 22.9866 50.083 23.0235C50.0713 23.0598 50.0528 23.0968 50.0439 23.1359L48.5847 30.1122C48.4471 30.773 48.8712 31.4203 49.5319 31.5579C49.7283 31.5988 49.9314 31.5909 50.1233 31.535L56.9681 29.5404C57 29.5303 57.0268 29.5119 57.0571 29.5012C57.0878 29.4901 57.1197 29.4744 57.1527 29.4582C57.2898 29.3961 57.414 29.3082 57.5192 29.2002L66.889 19.074V56.9861L59.7879 64.4419H34.5499ZM74.2222 74.2195H53.8512L74.2222 52.8308V74.2195Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon"
+                                    d="M60.8708 71.0209C61.0599 71.4774 61.5059 71.7751 62.0004 71.7751H70.5556C71.2309 71.7751 71.7781 71.2279 71.7781 70.5531V61.9974C71.7781 61.3221 71.2303 60.7755 70.5556 60.7755C70.2316 60.7755 69.9206 60.9042 69.6917 61.1336L61.136 69.6887C60.7864 70.0384 60.6817 70.5643 60.8708 71.0209ZM69.3337 64.9476V69.3307H64.9506L69.3337 64.9476Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon"
+                                    d="M57.1109 49.7755H48.5558V36.331C48.5541 36.0065 48.4249 35.6954 48.196 35.4654L40.8628 28.1322C40.3856 27.655 39.6118 27.655 39.1346 28.1322L31.8013 35.4654C31.5736 35.696 31.4455 36.007 31.4444 36.331V49.7755H22.8892C22.2139 49.7755 21.6667 50.3227 21.6667 50.9974C21.6667 51.6727 22.2139 52.2199 22.8892 52.2199H57.1115C57.7862 52.2199 58.3334 51.6727 58.3334 50.9974C58.3334 50.3227 57.7862 49.7755 57.1109 49.7755ZM40.0001 30.7255L44.3831 35.1085H35.617L40.0001 30.7255ZM33.8888 37.5529H46.1114V49.7755H33.8888V37.5529Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M38.7773 22.8865H41.2223V25.3309H38.7773V22.8865Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M38.7773 54.6642H41.2223V57.1086H38.7773V54.6642Z"
+                                    fill="#EE1F23" />
+                            </svg>
+
+                            <h1 class="funtitle">3. TRÌNH MẪU - GIẢI TRÌNH</h1>
+                            <p>• Trình mẫu vật liệu theo yêu cầu của khách hàng.</p>
+                            <p>• Giải trình các thông số kỹ thuật, biện pháp lắp đặt.</p>
+                            <svg class="so" width="70" height="114" viewBox="0 0 80 118" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sopath" opacity="0.6"
+                                    d="M75.7969 27.3281C75.7969 34.4635 73.6354 40.5312 69.3125 45.5312C64.9896 50.5312 58.9219 53.9688 51.1094 55.8438V56.3125C60.3281 57.4583 67.3073 60.2708 72.0469 64.75C76.7865 69.1771 79.1562 75.1667 79.1562 82.7188C79.1562 93.7083 75.1719 102.276 67.2031 108.422C59.2344 114.516 47.8542 117.562 33.0625 117.562C20.6667 117.562 9.67708 115.505 0.09375 111.391V90.8438C4.52083 93.0833 9.39062 94.9062 14.7031 96.3125C20.0156 97.7188 25.276 98.4219 30.4844 98.4219C38.4531 98.4219 44.3385 97.0677 48.1406 94.3594C51.9427 91.651 53.8438 87.3021 53.8438 81.3125C53.8438 75.9479 51.6562 72.1458 47.2812 69.9062C42.9062 67.6667 35.9271 66.5469 26.3438 66.5469H17.6719V48.0312H26.5C35.3542 48.0312 41.8125 46.8854 45.875 44.5938C49.9896 42.25 52.0469 38.2656 52.0469 32.6406C52.0469 23.9948 46.6302 19.6719 35.7969 19.6719C32.0469 19.6719 28.2188 20.2969 24.3125 21.5469C20.4583 22.7969 16.1615 24.9583 11.4219 28.0312L0.25 11.3906C10.6667 3.89062 23.0885 0.140625 37.5156 0.140625C49.3385 0.140625 58.6615 2.53646 65.4844 7.32812C72.3594 12.1198 75.7969 18.7865 75.7969 27.3281Z"
+                                    fill="#E0E0E0" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="funitem col-md-6 wow bounceInRight" data-wow-delay="0.6s">
+                        <a href="" style="text-decoration: none;">
+                            <svg width="50" height="50" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="pathicon"
+                                    d="M19.1989 52.2739C14.9237 52.2739 11.447 55.7506 11.447 60.0258C11.447 64.3011 14.9237 67.7778 19.1989 67.7778C23.4742 67.7778 26.9509 64.3011 26.9509 60.0258C26.9509 55.7506 23.474 52.2739 19.1989 52.2739ZM19.1989 65.1937C16.3487 65.1937 14.031 62.8759 14.031 60.0258C14.031 57.1757 16.3489 54.858 19.1989 54.858C22.049 54.858 24.3668 57.1758 24.3668 60.0258C24.3668 62.8759 22.049 65.1937 19.1989 65.1937Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon"
+                                    d="M63.1266 52.2739C58.8513 52.2739 55.3746 55.7506 55.3746 60.0258C55.3746 64.3011 58.8513 67.7778 63.1266 67.7778C67.4018 67.7778 70.8785 64.3011 70.8785 60.0258C70.8785 55.7506 67.4018 52.2739 63.1266 52.2739ZM63.1266 65.1937C60.2764 65.1937 57.9587 62.8759 57.9587 60.0258C57.9587 57.1757 60.2765 54.858 63.1266 54.858C65.9767 54.858 68.2945 57.1758 68.2945 60.0258C68.2945 62.8759 65.9767 65.1937 63.1266 65.1937Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon"
+                                    d="M78.4249 45.115L66.797 27.0271C66.5593 26.6576 66.1497 26.4341 65.7104 26.4341H51.4986C50.7841 26.4341 50.2067 27.0129 50.2067 27.726V60.0256C50.2067 60.7401 50.7841 61.3176 51.4986 61.3176H56.6665V58.7335H52.7905V29.0181H65.005L76.0463 46.1938V58.7339H69.5863V61.3177H77.3382C78.0527 61.3177 78.6302 60.7403 78.6302 60.0258V45.8139C78.6303 45.5671 78.5593 45.3229 78.4249 45.115Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon"
+                                    d="M57.9586 43.2299V34.1861H68.2946V31.6021H56.6667C55.9522 31.6021 55.3748 32.1809 55.3748 32.894V44.5219C55.3748 45.2363 55.9522 45.8138 56.6667 45.8138H76.0465V43.2298H57.9586V43.2299Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon"
+                                    d="M51.4986 17.3903H2.40302C1.6899 17.3903 1.11108 17.9691 1.11108 18.6822V60.0258C1.11108 60.7403 1.6899 61.3178 2.40302 61.3178H12.739V58.7337H3.69511V19.9741H50.2066V58.7337H25.6588V61.3178H51.4986C52.213 61.3178 52.7905 60.7403 52.7905 60.0258V18.6822C52.7905 17.9691 52.213 17.3903 51.4986 17.3903Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M10.155 53.5659H2.40308V56.1499H10.155V53.5659Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M50.2067 53.5659H28.2429V56.1499H50.2067V53.5659Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M77.3383 53.5659H72.1704V56.1499H77.3383V53.5659Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M51.4986 22.5582H6.27905V25.1423H51.4986V22.5582Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M20.4909 58.7338H17.9069V61.3178H20.4909V58.7338Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M64.4186 58.7338H61.8346V61.3178H64.4186V58.7338Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M24.3669 12.2222H6.27905V14.8062H24.3669V12.2222Z"
+                                    fill="#EE1F23" />
+                                <path class="pathicon" d="M3.69511 12.2222H1.11108V14.8062H3.69511V12.2222Z"
+                                    fill="#EE1F23" />
+                            </svg>
+                            <h1 class="funtitle">4. GIAO HÀNG - THANH TOÁN</h1>
+                            <p>• Thống nhất hợp đồng cung ứng vật tư.</p>
+                            <p>• Thống nhất phương thức thanh toán và các điều khoản.</p>
+                            <p>• Cung cấp tài liệu liên quan đến sản phẩm.</p>
+                            <svg class="so" width="70" height="114" viewBox="0 0 87 115" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sopath" opacity="0.6"
+                                    d="M86.8281 91.3281H73.0781V115H49.4844V91.3281H0.734375V74.5312L50.8125 0.78125H73.0781V72.5781H86.8281V91.3281ZM49.4844 72.5781V53.2031C49.4844 49.974 49.6146 45.2865 49.875 39.1406C50.1354 32.9948 50.3438 29.4271 50.5 28.4375H49.875C47.9479 32.7083 45.6302 36.875 42.9219 40.9375L21.9844 72.5781H49.4844Z"
+                                    fill="#E0E0E0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <a href="" class="tagnew">OZONE COMPANY</a>
+            <h1 class="newtitle">TIN TỨC</h1>
+            <div class="newscontent row">
+                <div class="newitem col-md-4 wow bounceInDown center">
+                    <div class="box">
+                        <img src="images/news/news11.png" alt="">
+                        <h1 class="newconttitle">
+                            Can your business become better with new technology?
+                        </h1>
+                        <p class="realcontent">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        </p>
+                        <div class="newsaction">
+                            <div class="lich">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z"
+                                        stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M16 2V6" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 2V6" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M3 10H21" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <p class="time">
+                                    20/08/2020
+                                </p>
+                            </div>
+                            <div class="seemorenews">
+                                <a href="">Xem thêm</a>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19" stroke="#EE1F23" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12 5L19 12L12 19" stroke="#EE1F23" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newitem col-md-4 wow bounceInDown center" data-wow-delay="0.2s">
+                    <div class="box">
+                        <img src="images/news/new2.jpg" alt="">
+                        <h1 class="newconttitle">
+                            Can your business become better with new technology?
+                        </h1>
+                        <p class="realcontent">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        </p>
+                        <div class="newsaction">
+                            <div class="lich">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z"
+                                        stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M16 2V6" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 2V6" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M3 10H21" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <p class="time">
+                                    20/08/2020
+                                </p>
+                            </div>
+                            <div class="seemorenews">
+                                <a href="">Xem thêm</a>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19" stroke="#EE1F23" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12 5L19 12L12 19" stroke="#EE1F23" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newitem col-md-4 wow bounceInDown center" data-wow-delay="0.4s">
+                    <div class="box">
+                        <img src="images/news/new3.jpg" alt="">
+                        <h1 class="newconttitle">
+                            Can your business become better with new technology?
+                        </h1>
+                        <p class="realcontent">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        </p>
+                        <div class="newsaction">
+                            <div class="lich">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z"
+                                        stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M16 2V6" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 2V6" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M3 10H21" stroke="#265BC5" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <p class="time">
+                                    20/08/2020
+                                </p>
+                            </div>
+                            <div class="seemorenews">
+                                <a href="">Xem thêm</a>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19" stroke="#EE1F23" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12 5L19 12L12 19" stroke="#EE1F23" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="formmorenews wow bounceInUp" data-wow-delay="0.6s">
+                <input type="submit" value="Xem thêm">
+                <button>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="#303030" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 5L19 12L12 19" stroke="#303030" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="client">
+            <a href="" class="tagclient">OZONE COMPANY</a>
+            <h1 class="clienttitle">KHÁCH HÀNG</h1>
+            <div class="clientmain">
+                <section class="clientslide slider">
+                    <div class="itemslideclient">
+                        <div class="inside row">
+                            <div class="clientimg col-md-6 wow slideInLeft">
+                                <img src="images/client/Rectangle 323.png" alt="">
+                                <div class="clientinfo">
+                                    <h1>JOHNATHAN ADAMS</h1>
+                                    <p>Founder, Great Wall Ltd.
+                                    </p>
+                                </div>
+                                <div class="nhaydo wow bounceInDown center" data-wow-delay="0.2s">
+                                    <svg width="25" height="49" viewBox="0 0 25 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9581 8.99115V0.99707C11.7335 0.99707 0.975952 11.7546 0.975952 24.9792V48.9613H24.9581V24.9792H8.97003C8.97003 16.1636 16.1424 8.99115 24.9581 8.99115Z"
+                                            fill="#EE1F23" />
+                                    </svg>
+                                    <svg width="25" height="49" viewBox="0 0 25 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9581 8.99115V0.99707C11.7335 0.99707 0.975952 11.7546 0.975952 24.9792V48.9613H24.9581V24.9792H8.97003C8.97003 16.1636 16.1424 8.99115 24.9581 8.99115Z"
+                                            fill="#EE1F23" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="clientcontent col-md-6 wow slideInRight" data-wow-delay="0.4s">
+
+                                <p>We challenged to complete the project in just over five months. This was an
+                                    incredibly fast-track schedule, given that retrofits of this scale, as we were told
+                                    by our own advisors. We challenged to complete the project in just over five months.
+                                    This was an incredibly fast-track schedule, given that retrofits of this scale, as
+                                    we were told by our own advisors.We challenged to complete the project in just over
+                                    five months. This was an incredibly fast-track schedule, given that retrofits of
+                                    this scale, as we were told by our own advisors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemslideclient">
+                        <div class="inside row">
+                            <div class="clientimg col-md-6">
+                                <img src="images/client/Rectangle 323.png" alt="">
+                                <div class="clientinfo">
+                                    <h1>JOHNATHAN ADAMS</h1>
+                                    <p>Founder, Great Wall Ltd.
+                                    </p>
+                                </div>
+                                <div class="nhaydo">
+                                    <svg width="25" height="49" viewBox="0 0 25 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9581 8.99115V0.99707C11.7335 0.99707 0.975952 11.7546 0.975952 24.9792V48.9613H24.9581V24.9792H8.97003C8.97003 16.1636 16.1424 8.99115 24.9581 8.99115Z"
+                                            fill="#EE1F23" />
+                                    </svg>
+                                    <svg width="25" height="49" viewBox="0 0 25 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9581 8.99115V0.99707C11.7335 0.99707 0.975952 11.7546 0.975952 24.9792V48.9613H24.9581V24.9792H8.97003C8.97003 16.1636 16.1424 8.99115 24.9581 8.99115Z"
+                                            fill="#EE1F23" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="clientcontent col-md-6">
+
+                                <p>We challenged to complete the project in just over five months. This was an
+                                    incredibly fast-track schedule, given that retrofits of this scale, as we were told
+                                    by our own advisors. We challenged to complete the project in just over five months.
+                                    This was an incredibly fast-track schedule, given that retrofits of this scale, as
+                                    we were told by our own advisors.We challenged to complete the project in just over
+                                    five months. This was an incredibly fast-track schedule, given that retrofits of
+                                    this scale, as we were told by our own advisors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemslideclient">
+                        <div class="inside row">
+                            <div class="clientimg col-md-6">
+                                <img src="images/client/Rectangle 323.png" alt="">
+                                <div class="clientinfo">
+                                    <h1>JOHNATHAN ADAMS</h1>
+                                    <p>Founder, Great Wall Ltd.
+                                    </p>
+                                </div>
+                                <div class="nhaydo">
+                                    <svg width="25" height="49" viewBox="0 0 25 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9581 8.99115V0.99707C11.7335 0.99707 0.975952 11.7546 0.975952 24.9792V48.9613H24.9581V24.9792H8.97003C8.97003 16.1636 16.1424 8.99115 24.9581 8.99115Z"
+                                            fill="#EE1F23" />
+                                    </svg>
+                                    <svg width="25" height="49" viewBox="0 0 25 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9581 8.99115V0.99707C11.7335 0.99707 0.975952 11.7546 0.975952 24.9792V48.9613H24.9581V24.9792H8.97003C8.97003 16.1636 16.1424 8.99115 24.9581 8.99115Z"
+                                            fill="#EE1F23" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="clientcontent col-md-6">
+
+                                <p>We challenged to complete the project in just over five months. This was an
+                                    incredibly fast-track schedule, given that retrofits of this scale, as we were told
+                                    by our own advisors. We challenged to complete the project in just over five months.
+                                    This was an incredibly fast-track schedule, given that retrofits of this scale, as
+                                    we were told by our own advisors.We challenged to complete the project in just over
+                                    five months. This was an incredibly fast-track schedule, given that retrofits of
+                                    this scale, as we were told by our own advisors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="coop">
+                    <div class="hh1">
+                    <a href=""><img src="images/client/Rectangle 332.png" alt=""></a>
+                    <a href=""><img src="images/client/Rectangle 333.png" alt=""></a>
+                    <a href=""><img src="images/client/Rectangle 334.png" alt=""></a>
+                    </div>
+                    <div class="hh2">
+                    <a href=""><img src="images/client/Rectangle 335.png" alt=""></a>
+                    <a href=""><img src="images/client/Rectangle 336.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h1>LIÊN HỆ</h1>
+            <div class="contactcont">
+                <div class="con1">
+                <div class="contactitem">
+
+                    <form>
+                        <button>
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M31.5 15C31.5 25.5 18 34.5 18 34.5C18 34.5 4.5 25.5 4.5 15C4.5 11.4196 5.92232 7.9858 8.45406 5.45406C10.9858 2.92232 14.4196 1.5 18 1.5C21.5804 1.5 25.0142 2.92232 27.5459 5.45406C30.0777 7.9858 31.5 11.4196 31.5 15Z"
+                                    stroke="#C1F8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M18 19.5C20.4853 19.5 22.5 17.4853 22.5 15C22.5 12.5147 20.4853 10.5 18 10.5C15.5147 10.5 13.5 12.5147 13.5 15C13.5 17.4853 15.5147 19.5 18 19.5Z"
+                                    stroke="#C1F8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </button>
+                    </form>
+                    <p>No. 22, N7 street, Quarter 3, Cat Lai Ward, District 2, Ho Chi Minh City</p>
+                </div>
+                <div class="contactitem">
+                    <form>
+                        <button>
+                            <svg width="50" height="50" viewBox="0 0 58 58" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle opacity="0.2" cx="29" cy="29" r="29" fill="white" />
+                                <path d="M44.0001 22.6009V14H35.3827" stroke="#B1FFFA" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M33.9464 24.0344L44 14" stroke="#B1FFFA" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M42.5638 36.821V41.1214C42.5655 41.5207 42.4835 41.9158 42.3233 42.2816C42.1631 42.6474 41.928 42.9758 41.6333 43.2457C41.3385 43.5156 40.9906 43.721 40.6117 43.8489C40.2327 43.9768 39.8312 44.0243 39.4329 43.9884C35.0134 43.5091 30.7681 42.0018 27.0382 39.5876C23.5681 37.3867 20.626 34.4503 18.4209 30.9867C15.9936 27.2471 14.4831 22.9894 14.0117 18.5585C13.9758 18.1621 14.023 17.7625 14.1503 17.3853C14.2775 17.0081 14.4821 16.6615 14.751 16.3676C15.0198 16.0736 15.3471 15.8387 15.7118 15.6779C16.0766 15.5171 16.471 15.4339 16.8697 15.4335H21.1784C21.8754 15.4266 22.5512 15.673 23.0797 16.1266C23.6081 16.5803 23.9533 17.2102 24.0509 17.8991C24.2327 19.2753 24.57 20.6266 25.0562 21.9272C25.2495 22.4402 25.2913 22.9978 25.1768 23.5339C25.0622 24.07 24.7961 24.562 24.4099 24.9518L22.5859 26.7723C24.6305 30.3611 27.6076 33.3326 31.2033 35.3732L33.0273 33.5527C33.4178 33.1673 33.9108 32.9017 34.4479 32.7873C34.985 32.673 35.5437 32.7147 36.0577 32.9076C37.3608 33.3929 38.7147 33.7295 40.0935 33.911C40.7912 34.0093 41.4284 34.36 41.8838 34.8966C42.3393 35.4331 42.5813 36.118 42.5638 36.821Z"
+                                    stroke="#B1FFFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+                        </button>
+                    </form>
+                    <p>028 6652 3966</p>
+                </div>
+                </div>
+                <div class="con2">
+                <div class="contactitem">
+                    <form>
+                        <button>
+                            <svg width="58" height="58" viewBox="0 0 58 58" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle opacity="0.2" cx="29" cy="29" r="29" fill="rgb(80, 120, 194)" />
+                                <path
+                                    d="M17 16H41C42.65 16 44 17.5187 44 19.375V39.625C44 41.4813 42.65 43 41 43H17C15.35 43 14 41.4813 14 39.625V19.375C14 17.5187 15.35 16 17 16Z"
+                                    stroke="#B1FFFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M44 19.375L29 31.1875L14 19.375" stroke="#B1FFFA" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+                        </button>
+                    </form>
+                    <p>info@ozonejsc.vnskyqueen.vn
+                    </p>
+                </div>
+                <div class="contactitem">
+                    <form>
+                        <button>
+                            <svg width="58" height="58" viewBox="0 0 58 58" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle opacity="0.2" cx="29" cy="29" r="29" fill="rgb(80, 120, 194)" />
+                                <path
+                                    d="M29.5 45.75C38.4746 45.75 45.75 38.4746 45.75 29.5C45.75 20.5254 38.4746 13.25 29.5 13.25C20.5254 13.25 13.25 20.5254 13.25 29.5C13.25 38.4746 20.5254 45.75 29.5 45.75Z"
+                                    stroke="#C1F8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.25 29.5H45.75" stroke="#C1F8FF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M29.5 13.25C33.5646 17.6998 35.8745 23.4746 36 29.5C35.8745 35.5254 33.5646 41.3002 29.5 45.75C25.4354 41.3002 23.1255 35.5254 23 29.5C23.1255 23.4746 25.4354 17.6998 29.5 13.25V13.25Z"
+                                    stroke="#C1F8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+                        </button>
+                    </form>
+                    <p>www.ozonejsc.vn</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="logofoot col-md-4">
+                <a href=""><img src="images/header/logo-1 1.png" style="width: 120px; height: 83px;" alt=""></a>
+                <h1>JOINT STOCK COMPANY</h1>
+                <p>We always strive for growth and development as StylemixThemes. We don't want to have a large team, we
+                    want to have a team that works in unity. Our slogan is "Every day is the last day".</p>
+            </div>
+            <div class="danhmuc col-sm-4">
+                <h1>Danh mục</h1>
+                <ul>
+                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a href="">DỊCH VỤ</a></li>
+                    <li><a href="">ALBUM ẢNH</a></li>
+                    <li><a href="">CHỨNG NHẬN</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+            <div class="dk col-sm-4">
+                <h1>Đăng ký nhận tin</h1>
+                <p>Nhập địa chỉ email của bạn để nhận thông tin ưu đãi mới nhất</p>
+                <form class="formdk">
+                    <input type="text" placeholder="Enter email address">
+                    <button>
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.287744 1.70828L5.56875 6.97732L0.287744 12.2473C0.10163 12.4382 -0.00181089 12.6948 2.40008e-05 12.9614C0.00185889 13.228 0.108786 13.4831 0.297509 13.6715C0.486233 13.8598 0.741589 13.9662 1.0082 13.9674C1.27482 13.9687 1.53119 13.8648 1.7217 13.6783L7.69766 7.71432C7.88698 7.51586 7.9927 7.25209 7.9927 6.97781C7.9927 6.70352 7.88698 6.43976 7.69766 6.2413L1.7217 0.277308C1.53026 0.0961042 1.27569 -0.00335052 1.01211 8.61919e-05C0.74853 0.0035229 0.496737 0.109546 0.310083 0.295679C0.123428 0.481813 0.0166481 0.733405 0.0124752 0.996973C0.00830222 1.26054 0.107076 1.51535 0.287744 1.7073V1.70828Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </form>
+                <img src="images/footer/image 1.png" alt="">
+            </div>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="#"><svg width="30" height="24" viewBox="0 0 30 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M29.5385 2.84123C28.44 3.32308 27.2695 3.64246 26.0492 3.79754C27.3046 3.048 28.2628 1.87015 28.7132 0.450461C27.5428 1.14831 26.2505 1.64123 24.8732 1.91631C23.7618 0.732923 22.1778 0 20.4498 0C17.0972 0 14.3982 2.72123 14.3982 6.05723C14.3982 6.53723 14.4388 6.99877 14.5385 7.43815C9.504 7.19262 5.04923 4.77969 2.05662 1.104C1.53415 2.01046 1.22769 3.048 1.22769 4.16492C1.22769 6.26215 2.30769 8.12123 3.91754 9.19754C2.94462 9.17908 1.99015 8.89662 1.18154 8.45169C1.18154 8.47015 1.18154 8.49415 1.18154 8.51815C1.18154 11.4609 3.28062 13.9052 6.03323 14.4683C5.54031 14.6031 5.00308 14.6677 4.44554 14.6677C4.05785 14.6677 3.66646 14.6455 3.29908 14.5643C4.08369 16.9625 6.31015 18.7255 8.95754 18.7828C6.89723 20.3945 4.28123 21.3655 1.44923 21.3655C0.952615 21.3655 0.476308 21.3434 0 21.2825C2.68246 23.0123 5.86154 24 9.28985 24C20.4332 24 26.5255 14.7692 26.5255 6.768C26.5255 6.50031 26.5163 6.24185 26.5034 5.98523C27.7052 5.13231 28.7151 4.06708 29.5385 2.84123Z"
+                                fill="#265BC5" />
+                        </svg></a></li>
+                <li><a href="#"><svg width="12" height="24" viewBox="0 0 12 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.81 3.985H12.001V0.169C11.623 0.117 10.323 0 8.809 0C5.65 0 3.486 1.987 3.486 5.639V9H0V13.266H3.486V24H7.76V13.267H11.105L11.636 9.001H7.759V6.062C7.76 4.829 8.092 3.985 9.81 3.985Z"
+                                fill="#265BC5" />
+                        </svg></a></li>
+                <li><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.5 0H7.5C3.3585 0 0 3.3585 0 7.5V16.5C0 20.6415 3.3585 24 7.5 24H16.5C20.6415 24 24 20.6415 24 16.5V7.5C24 3.3585 20.6415 0 16.5 0ZM21.75 16.5C21.75 19.395 19.395 21.75 16.5 21.75H7.5C4.605 21.75 2.25 19.395 2.25 16.5V7.5C2.25 4.605 4.605 2.25 7.5 2.25H16.5C19.395 2.25 21.75 4.605 21.75 7.5V16.5Z"
+                                fill="#265BC5" />
+                            <path
+                                d="M12 6C8.6865 6 6 8.6865 6 12C6 15.3135 8.6865 18 12 18C15.3135 18 18 15.3135 18 12C18 8.6865 15.3135 6 12 6ZM12 15.75C9.933 15.75 8.25 14.067 8.25 12C8.25 9.9315 9.933 8.25 12 8.25C14.067 8.25 15.75 9.9315 15.75 12C15.75 14.067 14.067 15.75 12 15.75Z"
+                                fill="#265BC5" />
+                            <path
+                                d="M18.45 6.34949C18.8916 6.34949 19.2495 5.99154 19.2495 5.54999C19.2495 5.10844 18.8916 4.75049 18.45 4.75049C18.0085 4.75049 17.6505 5.10844 17.6505 5.54999C17.6505 5.99154 18.0085 6.34949 18.45 6.34949Z"
+                                fill="#265BC5" />
+                        </svg>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>
+
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="slick/slick.min.js" type="text/javascript"></script>
+    <script src="slick/slick.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $(".funitem").hover(function () {
+                $(this).css("background-color", "#265BC5");
+                $(this).find(".pathicon").css("fill", "white");
+                $(this).find(".funtitle").css("color", "white");
+                $(this).find("p").css("color", "white");
+                $(this).find(".sopath").css("fill", "#4176E1")
+            }, function () {
+                $(this).css("background-color", "white");
+                $(".funitem .funtitle").css("color", "#265BC5");
+                $(".funitem .pathicon").css("fill", "red");
+                $(".funitem p").css("color", "#265BC5");
+                $(".funitem .sopath").css("fill", "#E0E0E0")
+
+            });
+            $(".clientslide").slick({
+                arrows: false,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+
+            });
+            $(".scrollbutton").click(function () {
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $("main").offset().top
+                }, 2000);
+            });
+            var wow = new WOW(
+  {
+    boxClass: 'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset: 0,          // distance to the element when triggering the animation (default is 0)
+    mobile: true,       // trigger animations on mobile devices (default is true)
+    live: true,       // act on asynchronously loaded content (default is true)
+    callback: function (box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init();
+
+
+        });
+        function closeNav() {
+            // $(".slidemenu a").css("display", "none");
+  document.getElementById("slidepanel").style.width = "0";
+}
+function openNav() {
+    // $(".slidemenu a").css("display", "inline");
+  document.getElementById("slidepanel").style.width = "250px";
+  document.getElementById("slidepanel").style.zIndex = "999";
+}
+    </script>
+</body>
+
+</html>

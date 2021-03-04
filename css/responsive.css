@@ -1,0 +1,355 @@
+@media screen and (max-width:1024px){
+  /* header{
+    text-align: center;
+    padding: 10px 0;
+  }
+  header .menu{
+    display: none;
+  }
+  nav{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  nav .menunav{
+    display: none;
+  }
+  .navtitle{
+    
+  }
+  .logo{
+    margin: 0 auto;
+  }
+  .logocontent{
+    margin: 0 auto;
+    position: relative;
+    top: auto;
+    right: auto;
+  } */
+  .menu .item h1{
+    font-size: 13px;
+  }
+  .menu .item a{
+    font-size: 13px;
+  }
+  .menunav .menu li a{
+    font-size: 13px;
+    font-weight: bold;
+    
+  }
+  .aboutus {
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.clientinfo {
+  z-index: 9999;
+  position: absolute;
+  top: 73%;
+  right: 26%;
+  background: #265BC5;
+  text-align: left;
+  width: 45%;
+  padding: 5px 5px;
+}
+  .slick-dots {
+    width: 30%;
+    position: absolute;
+    /* bottom: 50px; */
+    top: 60%;
+    right: 30.5%;
+    /* left: 62%; */
+    /* display: none; */
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .newscontent {
+    position: relative;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 90%;
+}
+}
+@media screen and (max-width:768px){
+  .slick-slide img{
+    width: 70%;
+  }
+  header{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+element.style {
+  width: 250px;
+  z-index: 999;
+}
+.slidemenu {
+  z-index: 999;
+  overflow: hidden;
+  text-align: left;
+  top: 0px;
+  left: 0;
+  position: fixed;
+  width: 0px;
+  background: #265bc5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: 1s;
+  transition: 1s;
+}
+.closebtn{
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+  padding: 0;
+}
+.slidemenu a {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px 10px 50px;
+  cursor: pointer;
+}
+.slidemenu a:first-child {
+  margin-top: 30px;
+}
+.slidemenu a:last-child{
+  padding: 0;
+}
+  .openbtn{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 22px;
+    width: 5vw;
+    height: 4vw;
+    top: 20px;
+    font-size: 2vw;
+    padding: 0;
+    border: none;
+    background-color: transparent
+}
+.clientinfo{
+  top: 80%;
+    right: 13%;
+
+}
+.openbtn i{
+   font-size: 30px;
+   color: #265bc5;
+}
+.fa-bars:before {
+  content: "\f0c9";
+}
+  nav{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .menu .item h1{
+    display: none;
+  }
+  nav .menunav{
+    display: none;
+  }
+  .menu{
+    padding: 10px 20px;
+    width: 100%;
+  }
+  .navtitle{
+    
+  }
+  .logo{
+    margin: 0 auto;
+  }
+  .logocontent{
+    margin: 0 auto;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  .navcontent{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0;
+  }
+  .navtitle{
+
+  }
+  .subsub{
+    bottom: -6px;
+  }
+  .aucontent{
+    padding: 50px 0 50px 50px
+  }
+  .newscontent .newitem{
+    padding: 20px 0;
+  }
+  .slick-dots {
+    top: 82%;
+    right: 35.5%;}
+    .nhaydo {
+      position: absolute;
+      left: -109%;
+      top: 94%;
+  }
+  .coop{
+   flex-direction: column;
+
+  }
+  .coop a{
+    width: 33.333333%;
+  }
+  .coop .hh1{
+    margin: 0 auto;
+  }
+  .coop .hh2{
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .contact{
+    flex-direction: column;
+  }
+  .contact h1{
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .contactcont{
+    margin: 0 auto;
+  }
+  footer .row{
+    justify-content: space-around;
+  }
+  .dk{
+    width: 50%;
+  }
+}
+@media screen and (max-width:600px){
+  header .menu{
+    display: none;
+  }
+.contactcont {
+  flex-direction: column;
+}
+.con1{
+  justify-content: space-around;
+}
+.con2{
+  justify-content: space-around;
+}
+}
+@media screen and (max-width:540px){
+  .funcontent{
+    width: 90%;
+    padding: 20px 0;
+  }
+  .navtitle{
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .dk{
+    padding-left: 15%;
+    width: 100%;
+  }
+  .nhaydo{
+    left: -113%
+  }
+  .clientinfo{
+    top: 70%;
+  }
+}
+@media screen and (max-width:480px){
+  .aucontent{
+    padding: 5px 5px 50px 5px;
+  }
+  .aucontent .formmore{
+    left: 5px;
+  }
+  .aucontent .content{
+    text-align: justify;
+  }
+  .openbtn svg{
+    width: 20px;
+  }
+  .logo{
+    width: 80%;
+  }
+  .news{
+    padding-top: 20px;
+  }
+  .clientinfo{
+    top: 71%;
+
+    width: 60%;
+  }
+
+ .funitem .so{
+   width: 20%;
+ }
+ .clientcontent p{
+   height: 150px;
+   overflow: scroll;
+ }
+ .link ul{
+   width: 80%;
+ }
+}
+@media screen and (max-width:380px){
+  .slick-slide img{
+    width: 90%;
+  }
+  .navtitle{
+    font-size: 26px;
+  }
+  .aucontent{
+    padding: 5px 5px 50px 5px;
+  }
+  .aucontent .formmore{
+    left: 5px;
+  }
+  .nhaydo svg{
+    width: 15px;
+  }
+  .clientinfo{
+    top: 71%;
+
+    width: 70%;
+  }
+  .clientinfo h1{
+    font-size: 11px;
+  }
+  .clientinfo p{
+    font-size: 11px;
+  }
+  .subsub{
+    width: 80%;
+    right: -2px;
+  }
+  .nenxanh{
+    width: 100%;
+    padding: 5px;
+  }
+  .nhaytrang{left: -25px;
+    top: -8px;}
+  .nhaytrang svg{
+    width: 20px;
+  }
+  .subsub h1{
+    padding-left: 20px;
+  }
+.contactcont .con1{
+  flex-direction: column;
+}
+.contactitem{
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 100%;
+}
+.contactcont .con2{
+  flex-direction: column;
+}
+}
